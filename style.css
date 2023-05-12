@@ -308,7 +308,6 @@ body {
   }
   .socials__link-icon{
     margin: 0 .5rem;
-    cursor: pointer;
     font-size: 3rem;
   }
 }
