@@ -25,20 +25,20 @@
         <!-- Sidebar -->
         <nav class="sidebar">
           <ul class="side-nav">
-            <li class="side-nav__item side-nav__item--active">
-              <a href="" class="side-nav__link">
+            <li class="side-nav__item ">
+              <a href="#home" class="side-nav__link" data-page="home">
                 <i class="fa-solid fa-house side-nav__icon"></i>
                 <span>Home</span>
               </a>
             </li>
-            <li class="side-nav__item">
-              <a href="" class="side-nav__link">
+            <li class="side-nav__item ">
+              <a href="#beverages" class="side-nav__link" data-page="beverages">
                 <i class="fa-solid fa-mug-hot side-nav__icon"></i>
                 <span>Beverages</span>
               </a>
             </li>
             <li class="side-nav__item">
-              <a href="" class="side-nav__link">
+              <a href="#desserts" class="side-nav__link" data-page="desserts">
                 <i class="fa-solid fa-ice-cream side-nav__icon"></i>
                 <span>Desserts</span>
               </a>
@@ -55,12 +55,14 @@
             &copy; 2023 by Mandy. All rights reserved.
           </div>
         </nav>
-
-
+        <!-- Main Content -->
         <main class="shop-view">
-          main content
+          <div class="page" id="home"><h1>Home</h1></div>
+          <div class="page" id="beverages"><h1>Beverages</h1></div>
+          <div class="page" id="desserts"><h1>Desserts</h1></div>
         </main>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

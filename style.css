@@ -97,12 +97,15 @@ body {
   transform: scaleY(1);
   width: 100%;
 }
+
 .side-nav__item:active::before {
   background-color: #faedcd;
 }
 .side-nav__link:link,
 .side-nav__link:visited {
-  color: #6c584c;
+  color: white;
+  font-weight: 900;
+  letter-spacing: .25rem;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
@@ -112,6 +115,16 @@ body {
 
   display: flex;
   align-items: center;
+}
+.side-nav__item:hover .side-nav__link,
+.side-nav__item--active .side-nav__link{
+  color: #777;
+}
+.page{
+  display: none;
+}
+.page.active{
+  display: block;
 }
 
 .side-nav__icon {
