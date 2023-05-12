@@ -103,7 +103,7 @@ body {
 }
 .side-nav__link:link,
 .side-nav__link:visited {
-  color: white;
+  color: #f4f2f2;
   font-weight: 900;
   letter-spacing: 0.25rem;
   text-decoration: none;
@@ -186,7 +186,7 @@ body {
   margin-right: 4.5rem;
 }
 .paragraph {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 .paragraph:not(:last-of-type) {
@@ -204,8 +204,8 @@ body {
 .list__item {
   flex: 0 0 50%;
   margin-bottom: 0.7rem;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 900;
 }
 
 /* Reviews */
@@ -226,7 +226,7 @@ body {
 }
 .review__text {
   margin-bottom: 2rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   z-index: 10;
   position: relative;
 }
@@ -294,16 +294,15 @@ body {
     margin-bottom: 3rem;
   }
   footer {
-    background-color: #bc6c25;
+    background-color: #d4a373;
     color: #f4f2f2;
     font-size: 2rem;
-    color: #fefae0;
     text-align: center;
     padding: 2.5rem;
   }
   .socials__link:link,
   .socials__link:visited{
-    color: white;
+    color: #f4f2f2;
     text-decoration: none;
   }
   .socials__link-icon{
