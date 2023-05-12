@@ -186,7 +186,7 @@ body {
   margin-right: 4.5rem;
 }
 .paragraph {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 .paragraph:not(:last-of-type) {
@@ -226,6 +226,7 @@ body {
 }
 .review__text {
   margin-bottom: 2rem;
+  font-size: 1.75rem;
   z-index: 10;
   position: relative;
 }
@@ -237,14 +238,13 @@ body {
   margin-right: auto;
 }
 .review__user-name {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0.4rem;
 }
 .review__user-date {
-  font-size: 1rem;
-  color: var(--color-grey-dark-3);
+  font-size: 1.5rem;
 }
 
 
