@@ -13,25 +13,29 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Angel's Coffee</title>
-    <link rel="icon" type="image/x-icon" href="./assets/shop-logo.png">
+    <link rel="icon" type="image/x-icon" href="./assets/shop-logo.png" />
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <img src="./assets/shop-logo.png" alt="angel's coffee shop logo" class="logo">
+        <img
+          src="./assets/shop-logo.png"
+          alt="angel's coffee shop logo"
+          class="logo"
+        />
         <h1 class="header-title">Angel's Coffee</h1>
       </header>
       <div class="content">
         <!-- Sidebar -->
         <nav class="sidebar">
           <ul class="side-nav">
-            <li class="side-nav__item ">
+            <li class="side-nav__item">
               <a href="#home" class="side-nav__link" data-page="home">
                 <i class="fa-solid fa-house side-nav__icon"></i>
                 <span>Home</span>
               </a>
             </li>
-            <li class="side-nav__item ">
+            <li class="side-nav__item">
               <a href="#beverages" class="side-nav__link" data-page="beverages">
                 <i class="fa-solid fa-mug-hot side-nav__icon"></i>
                 <span>Beverages</span>
@@ -51,13 +55,46 @@
               </a>
             </li>
           </ul>
-          <div class="legal">
-            &copy; 2023 by Mandy. All rights reserved.
-          </div>
+          <div class="legal">&copy; 2023 by Mandy. All rights reserved.</div>
         </nav>
         <!-- Main Content -->
         <main class="shop-view">
-          <div class="page" id="home"><h1>Home</h1></div>
+          <div class="page" id="home">
+            <div class="gallery">
+              <figure class="gallery__item">
+                <img
+                  src="assets/coffee-1.jpeg"
+                  alt="Photo of coffee 1"
+                  class="gallery__photo"
+                />
+              </figure>
+              <figure class="gallery__item">
+                <img
+                  src="assets/coffee-2.jpeg"
+                  alt="Photo of coffee 2"
+                  class="gallery__photo"
+                />
+              </figure>
+              <figure class="gallery__item">
+                <img
+                  src="assets/coffee-3.jpeg"
+                  alt="Photo of coffee 3"
+                  class="gallery__photo"
+                />
+              </figure>
+            </div>
+            <div class="overview">
+              <h1 class="overview__heading">Angel's Coffee & Desserts</h1>
+              <div class="overview__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="overview__rating">5.0</span>
+              </div>
+            </div>
+          </div>
           <div class="page" id="beverages"><h1>Beverages</h1></div>
           <div class="page" id="desserts"><h1>Desserts</h1></div>
         </main>

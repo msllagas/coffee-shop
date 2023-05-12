@@ -105,7 +105,7 @@ body {
 .side-nav__link:visited {
   color: white;
   font-weight: 900;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
@@ -117,14 +117,8 @@ body {
   align-items: center;
 }
 .side-nav__item:hover .side-nav__link,
-.side-nav__item--active .side-nav__link{
+.side-nav__item--active .side-nav__link {
   color: #777;
-}
-.page{
-  display: none;
-}
-.page.active{
-  display: block;
 }
 
 .side-nav__icon {
@@ -140,6 +134,46 @@ body {
   padding: 2.5rem;
 }
 
+/* Gallery */
+.page {
+  display: none;
+}
+.gallery {
+  display: flex;
+}
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
+
+/* Coffee Shop Overview */
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f4f2f2;
+}
+.overview__heading {
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem 3rem;
+}
+.overview__stars {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.overview__stars .fa-star{
+  width: 1.75rem;
+  height: 1.75rem;
+  color: #bc6c25;
+}
+.overview__rating{
+  font-size: 2.25rem;
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 1100px) {
   html {
     font-size: 50%;
@@ -151,7 +185,7 @@ body {
   }
 }
 @media only screen and (max-width: 900px) {
-  .content{
+  .content {
     flex-direction: column;
   }
   .side-nav {
@@ -185,5 +219,9 @@ body {
     margin-bottom: 0.7rem;
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .overview__heading {
+    font-size: 1.8rem;
+    padding: 1.25rem 2rem;
   }
 }
