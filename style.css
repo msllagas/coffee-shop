@@ -363,6 +363,30 @@ hr {
   margin:auto
 }
 
+/* Contact */
+.contact__heading {
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem 3rem;
+}
+.contact__detail {
+  padding: 3rem;
+  background-color: #faf9f9;
+}
+.contact__description{
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin:auto
+}
+.contact__location {
+  font-weight: 900;
+  font-size: 2.25rem;
+}
+
 footer {
   display: none;
 }
