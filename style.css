@@ -287,12 +287,12 @@ hr {
   background-color: #faf9f9;
 }
 .menu__coffee-card {
-  width: 20rem;
+  width: 25rem;
   border-radius: 20px;
   box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin: 2rem;
-  min-height: 40rem;
+  min-height: 45rem;
 }
 .menu__coffee-card--image {
   width: 100%;
@@ -301,9 +301,15 @@ hr {
   font-size: 2rem;
   font-weight: 700;
   margin-top: 1rem;
+  color: #bc6c25;
+}
+.menu__coffee-card--price {
+  font-size: 1.75rem;
+  color: #bc6c25
 }
 .menu__cofee-card--description {
   font-size: 1.75rem;
+  margin-top: .5rem;
 }
 
 .menu__dessert-heading {
@@ -321,14 +327,16 @@ hr {
   flex-wrap: wrap;
   gap: 0.5rem;
   background-color: #faf9f9;
+  margin-bottom: 2rem;
+
 }
 .menu__dessert-card {
-  width: 20rem;
+  width: 25rem;
   border-radius: 20px;
   box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin: 2rem;
-  min-height: 40rem;
+  min-height: 45rem;
 }
 .menu__dessert-card--image {
   width: 100%;
@@ -337,9 +345,15 @@ hr {
   font-size: 2rem;
   font-weight: 700;
   margin-top: 1rem;
+  color: #bc6c25;
+}
+.menu__dessert-card--price {
+  font-size: 1.75rem;
+  color: #bc6c25
 }
 .menu__dessert-card--description {
   font-size: 1.75rem;
+  margin-top: .5rem;
 }
 
 /* About */
@@ -501,11 +515,13 @@ footer {
   }
   .menu__coffee-card {
     margin: 0;
+    width: 20rem;
   }
   .menu__dessert-cardbox {
     gap: 1rem;
   }
   .menu__dessert-card {
     margin: 0;
+    width: 20rem;
   }
 }
